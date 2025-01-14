@@ -5,7 +5,8 @@ This repository contains code for evaluating different mechanisms using various 
 ## Features
 
 - **Mechanisms Supported**:
-  - Exponential Mechanism (`EXP`)
-- Centered Exponential Mechanism (`CEXP`)
-- Gaussian exponential mechanism (`GEXP`)
-- Randomized data Quantile Mechanism (`RQM` - with measurement error)
+  - Exponential Mechanism (`EXP`) - Pure DP
+- Centered Exponential Mechanism (`CEXP`) - Pure DP
+- Gaussian exponential mechanism (`GEXP`) - Pure DP
+- Randomized data Quantile Mechanism (`RQM`) - Approximate DP - Data is perturbed with Gaussian noise
+- Unbiased Exponential Mechanism (`UBEXP`) - Pure / Approximate DP (uniform / truncated normal data)
